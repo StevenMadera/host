@@ -85,8 +85,8 @@ WSGI_APPLICATION = 'Foodlombia.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        #default='postgresql://postgres:postgres@localhost/postgres',
-        default='sqlite:///PATH',
+        default='postgresql://postgres:postgres@localhost/postgres',
+        #default='sqlite:///PATH',
         conn_max_age=600
     )  
     
